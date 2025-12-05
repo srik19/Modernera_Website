@@ -23,8 +23,6 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/Modernera_Website/",  // <---- ADD THIS LINE (IMPORTANT)
-
   server: {
     host: "::",
     port: 8080,
